@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="r.css">
+    <title>Document</title>
+
+</head>
+<body>
+    
+
+
+
+
+<!-- **** Header of Homepage **** -->
+<header class="h">
+    <div class="h__content">
+      <div class="h__logo-container">
+        <div class="h__logo-img-cont">
+          <img
+            src="H/istockphoto-1498002240-1024x1024.webp"
+            alt="img"
+            class="h__logo-img"
+          />
+        </div>
+        <span class="h__logo-sub"></span>
+      </div>
+      <div class="h__main">
+        <ul class="h__links">
+          <li class="h__link-wrapper">
+            <a href="#" class="h__link"> Home </a>
+          </li>
+          <li class="h__link-wrapper">
+            <a href="./#about" class="h__link">About </a>
+          </li>
+          <li class="h__link-wrapper">
+            <a href="./#projects" class="h__link"> Projects </a>
+          </li>
+          <li class="h__link-wrapper">
+            <a href="./#contact" class="h__link"> Contact </a>
+          </li>
+        </ul>
+        <div class="h__main-ham-menu-cont">
+          <img
+            src=""
+            alt="hamburger menu"
+            class="h__main-ham-menu"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="h__sm-menu">
+      <div class="h__sm-menu-content">
+        <ul class="h__sm-menu-links">
+          <li class="h__sm-menu-link">
+            <a href="./"> Home </a>
+          </li>
+  
+          <li class="h__sm-menu-link">
+            <a href="./#about"> About </a>
+          </li>
+  
+          <li class="h__sm-menu-link">
+            <a href="./#projects"> Projects </a>
+          </li>
+  
+          <li class="h__sm-menu-link">
+            <a href="./#contact"> Contact </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <!-- END Header -->
+
+  <!-- **** Hero Section of Homepage **** -->
+  <section class="home-hero">
+    <div class="home-hero__content">
+      <h1 class="heading-primary">Hey, My name is Shidratul Muntahar REHENA</h1>
+      <div class="home-hero__info">
+        <p class="text-primary">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
+          tempora explicabo quae quod deserunt eius sapiente solutions for complex
+          problems
+        </p>
+      </div>
+      <div class="home-hero__cta">
+        <a href="./#projects" class="btn btn--bg">Projects</a>
+      </div>
+    </div>
+    <div class="home-hero__socials">
+      <div class="home-hero__social">
+        <a href="#" class="home-hero__social-icon-link">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjFaiHc8Bb0NpQbe8fXs_WjYGWnXpNosuEZtEEVo1LWg&s"
+            alt="icon"
+            class="home-hero__social-icon"
+          />
+        </a>
+      </div>
+      <div class="home-hero__social">
+        <a href="#" class="home-hero__social-icon-link">
+          <img
+            src="https://png.pngtree.com/png-clipart/20180626/ourmid/pngtree-instagram-icon-instagram-logo-png-image_3584852.png"
+            alt="icon"
+            class="home-hero__social-icon"
+          />
+        </a>
+      </div>
+      <div class="home-hero__social">
+        <a href="#" class="home-hero__social-icon-link">
+          <img
+            src="data:image/png;base64,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"
+            alt="icon"
+            class="home-hero__social-icon"
+          />
+        </a>
+      </div>
+      <div class="home-hero__social">
+        <a href="#" class="home-hero__social-icon-link">
+          <img
+            src="https://p7.hiclipart.com/preview/922/489/218/whatsapp-icon-logo-whatsapp-logo-png.jpg"
+            alt="icon"
+            class="home-hero__social-icon"
+          />
+        </a>
+      </div>
+      <div class="home-hero__social">
+        <a
+          href="#"
+          class="home-hero__social-icon-link home-hero__social-icon-link--bd-none"
+        >
+          <img
+            src="https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-facebook-social-media-icon-png-image_6315968.png"
+            alt="icon"
+            class="home-hero__social-icon"
+          />
+        </a>
+      </div>
+    </div>
+   
+  </section>
+  <!-- /END Hero Section -->
+
+  <!-- **** About Section of Homepage **** -->
+  <section id="about" class="about sec-pad">
+    <div class="main-container">
+      <h2 class="heading heading-sec heading-sec__mb-med">
+        <span class="heading-sec__main">About Me</span>
+        <span class="heading-sec__sub">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
+          tempora explicabo quae quod deserunt eius sapiente
+        </span>
+      </h2>
+      <div class="about__content">
+        <div class="about__content-main">
+          <h3 class="about__content-title">Get to know me!</h3>
+          <div class="about__content-details">
+            <p class="about__content-details-para">
+              Hey! It's
+              <strong>REHENA</strong>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam expedita vel unde accusantium praesentium, ex illum fugiat ea iure sunt eos veniam esse amet aspernatur distinctio doloribus. Earum, dicta impedit!.
+            </p>
+            <p class="about__content-details-para">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptate provident, consectetur accusantium quasi quo repellat minus autem nobis dolore eligendi nemo natus iusto, recusandae aliquid ducimus veniam assumenda eum.
+              <strong>contact</strong> me here.
+            </p>
+          </div>
+          <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr"
+            >Contact</a
+          >
+        </div>
+        <div class="about__content-skills">
+          <h3 class="about__content-title">My Skills</h3>
+          <div class="skills">
+            <div class="skills__skill">HTML</div>
+            <div class="skills__skill">CSS</div>
+            <div class="skills__skill">JavaScript</div>
+            <div class="skills__skill">React</div>
+            <div class="skills__skill">SASS</div>
+            <div class="skills__skill">GIT</div>
+            <div class="skills__skill">Shopify</div>
+            <div class="skills__skill">Wordpress</div>
+            <div class="skills__skill">Google ADS</div>
+            <div class="skills__skill">Facebook Ads</div>
+            <div class="skills__skill">Android</div>
+            <div class="skills__skill">IOS</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END About Section -->
+ 
+  
+  <!-- **** Projects Section of Homepage **** -->
+  <section id="projects" class="projects sec-pad">
+    <div class="main-container">
+      <h2 class="heading heading-sec heading-sec__mb-bg">
+        <span class="heading-sec__main">Projects</span>
+        <span class="heading-sec__sub">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
+          tempora explicabo quae quod deserunt eius sapiente
+        </span>
+      </h2>
+  
+      <div class="projects__content">
+        <div class="projects__row">
+          <div class="projects__row-img-cont">
+            <img
+              src="H/photo-1499951360447-b19be8fe80f5.avif"
+              alt="Software Screenshot"
+              class="projects__row-img"
+              loading="lazy"
+            />
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">Project 1</h3>
+            <p class="projects__row-content-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
+              tempora, explicabo quae quod deserunt eius sapiente praesentium.
+            </p>
+            <a
+              href="./project-1.html"
+              class="btn btn--med btn--theme dynamicBgClr"
+              target="_blank"
+              >Case Study</a
+            >
+          </div>
+        </div>
+        <div class="projects__row">
+          <div class="projects__row-img-cont">
+            <img
+              src="H/photo-1489110804417-276c3f517515.avif"
+            />
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">Project 2</h3>
+            <p class="projects__row-content-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
+              tempora, explicabo quae quod deserunt eius sapiente praesentium.
+            </p>
+            <a
+              href="./project-2.html"
+              class="btn btn--med btn--theme dynamicBgClr"
+              target="_blank"
+              >Case Study</a
+            >
+          </div>
+        </div>
+        <div class="projects__row">
+          <div class="projects__row-img-cont">
+            <img
+              src="H/photo-1489110804417-276c3f517515.avif"
+            />
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">Project 3</h3>
+            <p class="projects__row-content-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
+              tempora, explicabo quae quod deserunt eius sapiente praesentium.
+            </p>
+            <a
+              href="./project-3.html"
+              class="btn btn--med btn--theme dynamicBgClr"
+              target="_blank"
+              >Case Study</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END Projects Section -->
+
+  
+
+  <section id="contact" class="contact sec-pad dynamicBg">
+    <div class="main-container">
+      <h2 class="heading heading-sec heading-sec__mb-med">
+        <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+        <span class="heading-sec__sub heading-sec__sub--lt">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
+          tempora explicabo quae quod deserunt eius sapiente
+        </span>
+      </h2>
+      <div class="contact__form-container">
+        <form action="#" class="contact__form">
+          <div class="contact__form-field">
+            <label class="contact__form-label" for="name">Name</label>
+            <input
+              required
+              placeholder="Enter Your Name"
+              type="text"
+              class="contact__form-input"
+              name="name"
+              id="name"
+            />
+          </div>
+          <div class="contact__form-field">
+            <label class="contact__form-label" for="email">Email</label>
+            <input
+              required
+              placeholder="Enter Your Email"
+              type="text"
+              class="contact__form-input"
+              name="email"
+              id="email"
+            />
+          </div>
+          <div class="contact__form-field">
+            <label class="contact__form-label" for="message">Message</label>
+            <textarea
+              required
+              cols="30"
+              rows="10"
+              class="contact__form-input"
+              placeholder="Enter Your Message"
+              name="message"
+              id="message"
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn--theme contact__btn">
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- END Contact Section -->
+
+  <!-- **** Footer Section **** -->
+  <footer class="main-footer">
+    <div class="main-container">
+      <div class="main-footer__upper">
+        <div class="main-footer__row main-footer__row-1">
+          <h2 class="heading heading-sm main-footer__heading-sm">
+            <span>Social</span>
+          </h2>
+          <div class="main-footer__social-cont">
+            <a target="_blank" rel="noreferrer" href="#">
+              <img
+                class="main-footer__icon"
+                src="./assets/png/linkedin-ico.png"
+                alt="icon"
+              />
+            </a>
+            <a target="_blank" rel="noreferrer" href="#">
+              <img
+                class="main-footer__icon"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMN0I_hI-UJV4DPVCbNWHaCYHxivy4q6Y7jA&usqp=CAU"
+                alt="icon"
+              />
+            </a>
+            <a target="_blank" rel="noreferrer" href="#">
+              <img
+                class="main-footer__icon"
+                src="https://upload.wikimedia.org/wikipedia/commons/8/87/Google_Chrome_icon_%282011%29.png"
+                alt="icon"
+              />
+            </a>
+            <a target="_blank" rel="noreferrer" href="#">
+              <img
+                class="main-footer__icon"
+                src="https://www.freeiconspng.com/thumbs/logo-whatsapp-png/get-logo-whatsapp-png-pictures-1.png"
+                alt="icon"
+              />
+            </a>
+            <a target="_blank" rel="noreferrer" href="#">
+              <img
+                class="main-footer__icon main-footer__icon--mr-none"
+                src="https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-facebook-social-media-icon-png-image_6315968.png"
+                alt="icon"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="main-footer__row main-footer__row-2">
+          <h4 class="heading heading-sm text-lt">UJJKJMJNTYJ</h4>
+          <p class="main-footer__short-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit facilis
+            tempora explicabo quae quod deserunt
+          </p>
+        </div>
+      </div>
+  
+      <div class="main-footer__lower">
+        &copy; Copyright 2021. Made by
+        <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com"
+          >RASDBM</a
+        >
+      </div>
+    </div>
+  </footer>
+  <!-- END Footer Section -->
+  
+  
+  
+  <section class="project-cs-hero">
+    <div class="project-cs-hero__content">
+      <h1 class="heading-primary">Project 1</h1>
+      <div class="project-cs-hero__info">
+        <p class="text-primary">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos in
+          numquam incidunt earum quaerat cum fuga, atque similique natus nobis
+          sit.
+        </p>
+      </div>
+      <div class="project-cs-hero__cta">
+        <a href="#" class="btn btn--bg" target="_blank">Live Link</a>
+      </div>
+    </div>
+  </section>
+  
+  <section class="project-details">
+    <div class="main-container">
+      <div class="project-details__content">
+        <div class="project-details__showcase-img-cont">
+          <img
+            src="H/photo-1499951360447-b19be8fe80f5.avif"
+            alt="Project Image"
+            class="project-details__showcase-img"
+          />
+        </div>
+        <div class="project-details__content-main">
+          <div class="project-details__desc">
+            <h3 class="project-details__content-title">Project Overview</h3>
+            <p class="project-details__desc-para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque alias
+              tenetur minus quaerat aliquid, aut provident blanditiis, deleniti
+              aspernatur ipsam eaque veniam voluptatem corporis vitae mollitia
+              laborum corrupti ullam rem. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Neque alias tenetur minus quaerat aliquid, aut
+              provident blanditiis, deleniti aspernatur ipsam eaque veniam
+              voluptatem corporis vitae mollitia laborum corrupti ullam rem?
+            </p>
+            <p class="project-details__desc-para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque alias
+              tenetur minus quaerat aliquid, aut provident blanditiis, deleniti
+              aspernatur ipsam eaque veniam voluptatem corporis vitae mollitia
+              laborum corrupti ullam rem?
+            </p>
+          </div>
+          <div class="project-details__tools-used">
+            <h3 class="project-details__content-title">Tools Used</h3>
+            <div class="skills">
+              <div class="skills__skill">HTML</div>
+              <div class="skills__skill">CSS</div>
+              <div class="skills__skill">JavaScript</div>
+              <div class="skills__skill">React</div>
+              <div class="skills__skill">SASS</div>
+              <div class="skills__skill">GIT</div>
+              <div class="skills__skill">Shopify</div>
+              <div class="skills__skill">Wordpress</div>
+              <div class="skills__skill">Google ADS</div>
+              <div class="skills__skill">Facebook Ads</div>
+              <div class="skills__skill">Android</div>
+              <div class="skills__skill">IOS</div>
+            </div>
+          </div>
+          <div class="project-details__links">
+            <h3 class="project-details__content-title">See Live</h3>
+            <a
+              href="#"
+              class="btn btn--med btn--theme project-details__links-btn"
+              target="_blank"
+              >Live Link</a
+            >
+            <a
+              href="#"
+              class="btn btn--med btn--theme-inv project-details__links-btn"
+              target="_blank"
+              >Code Link</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
